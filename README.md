@@ -17,12 +17,6 @@ A simple and responsive currency converter built using **HTML**, **CSS**, and **
 
 ---
 
-## 🖼️ Preview
-
-<img src="https://i.imgur.com/ZJ2KfHp.png" width="600"/>
-
----
-
 ## 🛠️ Built With
 
 - HTML5
