@@ -1,51 +1,61 @@
-# 💱 Currency Converter Web App
+💱 Currency Converter
+Live Demo: https://santhoshini123541.github.io/currency-converter/
 
-A simple, clean, and responsive currency converter that lets you convert between 100+ currencies in real-time — with country flags and dynamic UI updates.
+A responsive and simple currency converter web application built using HTML, CSS, and JavaScript. This app uses the ExchangeRate-API to fetch real-time exchange rates between global currencies.
 
-🔗 **Live Demo**: [Click here to try it out](https://santhoshini123541.github.io/currency-converter/)
+✨ Features
+✅ Convert any currency to any other (supports 150+ currencies)
 
----
+🌍 Displays national flags dynamically
 
-## 🌟 Features
+🔁 Swap from/to currencies easily
 
-- 🌍 Supports over 100 world currencies
-- 🔁 Real-time exchange rates via **Frankfurter API**
-- 🏳️ Automatically updates country flags based on selection
-- ✨ Responsive UI — works on desktop and mobile
-- ⚠️ Input validation — no crashing even with invalid values
+🔢 Pre-fills the amount input with 100 by default
 
----
+🔒 Input validation (no negatives or empty values)
 
-## 🧰 Technologies Used
+📱 Fully responsive on mobile & desktop
 
-- **HTML** – Page structure
-- **CSS** – Styling and layout
-- **JavaScript** – Logic and API calls
-- **Frankfurter API** – Currency conversion data
-- **Flags API** – Country flag images
+🌐 Real-time API fetch using your own API key
 
----
+🔧 Technologies Used
+HTML5
 
-## 📁 Folder Structure
+CSS3 (Flexbox)
+
+JavaScript (ES6+)
+
+ExchangeRate-API
+
+Flags API
+
+Font Awesome Icons
+
+🛠 How to Use Locally
+Clone the repo:
+
+bash
+Copy code
+git clone https://github.com/santhoshini123541/currency-converter.git
+cd currency-converter
+Open index.html in your browser.
+
+You’re ready to convert currencies!
+
+📁 Project Structure
+bash
+Copy code
 currency-converter/
-├── index.html # Main HTML page
-├── style.css # Styling
-├── script.js # App logic + API calls
-├── codes.js # Country-to-currency mappings
-└── README.md # You're here!
+├── index.html         # Main HTML structure
+├── style.css          # Styling and layout
+├── script.js          # Core JS logic & API integration
+├── codes.js           # Country-currency-flag mapping object
+🗝️ API Details
+API Used: ExchangeRate-API
 
----
+Base URL:
 
-## 🚀 How to Run Locally
-
-1. **Clone this repository:**
-   ```bash
-   git clone https://github.com/santhoshini123541/currency-converter.git
-
-2. Open the project:
-
-Navigate into the folder
-
-Double-click index.html or open it in your browser
-
-That's it! The app will run offline with default values and fetch real-time exchange rates when connected.
+bash
+Copy code
+https://v6.exchangerate-api.com/v6/YOUR_API_KEY/pair/FROM/TO/AMOUNT
+Replace YOUR_API_KEY with your valid key in script.js.
