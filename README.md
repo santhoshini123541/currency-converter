@@ -1,73 +1,64 @@
 # 💱 Currency Converter
 
-**Live Demo:** [https://santhoshini123541.github.io/currency-converter/](https://santhoshini123541.github.io/currency-converter/)
+[🔗 Live Demo](https://santhoshini123541.github.io/currency-converter/)
 
-A simple and responsive currency converter app built using **HTML**, **CSS**, and **JavaScript**. It fetches real-time exchange rates using the **ExchangeRate-API** and supports 150+ currencies with country flags.
-
----
-
-## ✨ Features
-
-- 🔁 Convert between any two currencies
-- 🏳️ Displays country flags based on selected currencies
-- 💬 Shows live conversion result
-- 🔃 Swap from/to currencies with a single click
-- 🛡️ Handles invalid/empty input with default fallback
-- 💻 Mobile-friendly and responsive UI
-- ⚙️ Manual API integration with user API key
+A simple and responsive currency converter built using **HTML**, **CSS**, and **JavaScript**. It uses the **ExchangeRate-API** to convert between 100+ currencies with real-time exchange rates and shows country flags.
 
 ---
 
-## 🧠 How It Works
+## 🚀 Features
 
-- User selects the "From" and "To" currencies using dropdowns.
-- On clicking **"Get Exchange Rate"**, an API call is made to:
-  https://v6.exchangerate-api.com/v6/YOUR_API_KEY/pair/FROM/TO/AMOUNT
-  
-- The app then displays the converted amount using the returned `conversion_result`.
+- Convert any currency to another
+- Shows real-time conversion rate
+- Displays country flags for selected currencies
+- Swaps currencies easily
+- Responsive design for mobile & desktop
+- Handles invalid inputs
 
 ---
 
-## 🛠 Technologies Used
+## 🖼️ Preview
+
+<img src="https://i.imgur.com/ZJ2KfHp.png" width="600"/>
+
+---
+
+## 🛠️ Built With
 
 - HTML5
-- CSS3 (Flexbox)
-- JavaScript (ES6)
+- CSS3
+- JavaScript
 - [ExchangeRate-API](https://www.exchangerate-api.com/)
 - [Flags API](https://flagsapi.com/)
 - [Font Awesome](https://fontawesome.com/)
 
 ---
 
-## 📁 Folder Structure
-currency-converter/
-├── index.html # Main HTML layout
-├── style.css # Styling and layout (responsive)
-├── codes.js # Currency-country flag mapping
-├── script.js # Core logic and API integration
+## 🔑 How the API Works
+
+The app uses:
+https://v6.exchangerate-api.com/v6/YOUR_API_KEY/pair/FROM/TO/AMOUNT
+
+> You can get your free API key from [ExchangeRate-API](https://www.exchangerate-api.com/)
 
 ---
 
-## 🗝️ API Setup
+## 🗂️ Files
 
-> 🔒 You need to use your own API key from [https://www.exchangerate-api.com/](https://www.exchangerate-api.com/)
+- `index.html` – Page structure
+- `style.css` – Styles and layout
+- `codes.js` – Currency + country code mapping
+- `script.js` – Main JS logic (fetch & display conversion)
 
-1. Replace `YOUR_API_KEY` in `script.js`:
-   ```js
-   const API_KEY = "your-api-key-here";
-   const BASE_URL = `https://v6.exchangerate-api.com/v6/${API_KEY}/pair`;
-2.The final URL looks like:
+---
 
-bash
-Copy code
-https://v6.exchangerate-api.com/v6/your-api-key/pair/USD/INR/100
-🚀 How to Run Locally
-Clone the repository:
+## 📦 How to Run
 
-bash
-Copy code
-git clone https://github.com/santhoshini123541/currency-converter.git
-cd currency-converter
-Open index.html in your browser.
+1. Clone the repo:
+git clone https://github.com/santhoshini123541/currency-converter
+
+2. Open `index.html` in any browser.
+
+
 
 
